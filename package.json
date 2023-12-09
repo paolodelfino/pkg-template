@@ -19,7 +19,7 @@
     "dev": "tsup --watch",
     "build": "tsup",
     "generate-doc": "npx typedoc src/index.ts",
-    "pre-publish": "pnpm run build && pnpm run generate-doc"
+    "prepublishOnly": "pnpm run build && pnpm run generate-doc"
   },
   "repository": {
     "type": "git",
